@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+uwa-channels==0.7.1
+pytest

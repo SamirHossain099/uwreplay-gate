@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use uwreplay-gate, please cite it as below."
+title: "uwreplay-gate: offloading and freshness decisions for AUV networks on replayed sea-trial channels"
+abstract: >-
+  Two standard underwater acoustic frame families, a JANUS-like frequency-hopped frame and a coherent
+  single-carrier frame with a decision-feedback equalizer, replayed through seven measured sea-trial channels of
+  the Underwater Acoustic Channel Library on one hydrophone. The replays give per-site packet-success plateaus,
+  goodput with retransmissions, and failure-run statistics, which are fed back into three published designs: a
+  multi-tier offloading economy, a multi-AUV data-collection planner, and the max-age-first scheduling rule.
+  uwreplay-gate holds the frames and receivers, the replay protocol, the rebuilt designs, the short-probe study,
+  every result file, and tests that pin every number the paper reports.
+type: software
+authors:
+  - given-names: Samir
+    family-names: Hossain
+    orcid: "https://orcid.org/0009-0003-8986-0946"
+    affiliation: "Department of Electrical and Computer Engineering, Texas Tech University"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/SamirHossain099/uwreplay-gate"
+keywords:
+  - underwater acoustic networks
+  - autonomous underwater vehicles
+  - channel replay
+  - task offloading
+  - age of information
+  - edge computing
