@@ -1,5 +1,7 @@
 # uwreplay-gate
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23493739.svg)](https://doi.org/10.5281/zenodo.23493739)
+
 Offloading and freshness decisions for AUV networks on replayed sea-trial channels: the frames, receivers, replay
 protocol, rebuilt published designs, short-probe study, result files and number-pinning tests behind the paper of
 the same name (submitted to the IEEE Transactions on Vehicular Technology Special Section on Edge Intelligence and
@@ -69,7 +71,7 @@ frames exceed Pink's 4 kHz probe band at their highest rates; those rows are rep
 
 ## Citing
 
-See `CITATION.cff`. The concept DOI is added to this file and to `CITATION.cff` once the first release is archived.
+See `CITATION.cff`. Cite the concept DOI 10.5281/zenodo.23493739, which resolves to the latest release.
 
 ## License
 

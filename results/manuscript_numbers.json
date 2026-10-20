@@ -2361,10 +2361,10 @@
  },
  "artifact_url": {
   "value": 0,
-  "text": "[PENDING: artifact URL]"
+  "text": "https://github.com/SamirHossain099/uwreplay-gate"
  },
  "artifact_doi": {
   "value": 0,
-  "text": "[PENDING: concept DOI]"
+  "text": "10.5281/zenodo.23493739"
  }
 }

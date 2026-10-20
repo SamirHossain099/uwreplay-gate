@@ -316,8 +316,8 @@ def main():
     put("d2_lf_probe_n", cs["d2_loso_family_probe"]["n"], str(cs["d2_loso_family_probe"]["n"]))
 
     # ---- artifact placeholders (filled at release)
-    put("artifact_url", 0, "[PENDING: artifact URL]")
-    put("artifact_doi", 0, "[PENDING: concept DOI]")
+    put("artifact_url", 0, "https://github.com/SamirHossain099/uwreplay-gate")
+    put("artifact_doi", 0, "10.5281/zenodo.23493739")  # concept DOI, resolves to the latest release (Zenodo record 2026-10-20)
 
     (R / "manuscript_numbers.json").write_text(json.dumps(N, indent=1), encoding="utf-8")
     print(f"wrote results/manuscript_numbers.json with {len(N)} tokens")
